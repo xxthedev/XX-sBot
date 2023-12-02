@@ -22,33 +22,33 @@ const { Player } = require('discord-player')
 const dotenv = require("dotenv")
 dotenv.config();
 
-let Bugchannel = "1101255911542108220";
+let Bugchannel = "BugChannelId";
 
-let generalchat = "969573633641046100";
+let generalchat = "GeneralChatId";
 
-let channelbot = "1077155600825331742";
+let channelbot = "ChannelBotId";
 
-let warnchannel = "1113406828718596106";
+let warnchannel = "WarnChannelId";
 
-let channelbienvenue = "1013060831623249980";
+let channelbienvenue = "WelcomeChannelId";
 
-let verifchannel = "1139521939656953886";
+let verifchannel = "VerificationChannelId";
 
-let suggestchannel = "1140292923305509017";
+let suggestchannel = "SuggestChannelId";
 
-const moi = "916694024973340672";
+const moi = "BotCreator(me)";
 
-const XXbot = "1040692763064279140";
+const XXbot = "BotId";
 
-const modo = "970239140153143356";
+const modo = "ModoRoleId";
 
-const bumpchannel = "1136272176492838985";
+const bumpchannel = "BumpChannelId";
 
-const serveur = "969573633641046097";
+const serveur = "ServerId";
 
-const nmbbot = 8;
+const nmbbot = NumerOfBotInTheServer;
 
-const bantempchannel = "1165701608420675604";
+const bantempchannel = "BanTempChannelId";
 
 const client = new Client({
     intents: [
